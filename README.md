@@ -30,4 +30,6 @@ consumerGroupId: hello
 ./bin/kafka-console-consumer.sh --topic topicName --from-beginning --group hello --bootstrap-server localhost:9092 --consumer.config ./config/config.properties
 
 partitions = 40 , concurrency = 5 , 8 consumers assigned to each partition
+
+make sure you threads are allways lesser than the number of partitions
 <img width="1632" alt="Screenshot 2023-04-16 at 7 50 08 PM" src="https://user-images.githubusercontent.com/57263117/232319345-d5da3a89-e4d9-4772-a2b8-3517af15cbcb.png">
