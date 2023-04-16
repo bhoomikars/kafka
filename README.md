@@ -7,6 +7,8 @@ consuemr config -> consumerFactory bean
 
 
 sendMessageController -> to push message to kafka topic
+
+
 listener -> to read the message from topic
 
 start zookeeper:
