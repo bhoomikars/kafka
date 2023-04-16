@@ -2,7 +2,10 @@
 kafka producer consumer setup
 File:
 producer config -> producerFactory bean
+
 consuemr config -> consumerFactory bean
+
+
 sendMessageController -> to push message to kafka topic
 listener -> to read the message from topic
 
