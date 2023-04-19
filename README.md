@@ -12,10 +12,10 @@ sendMessageController -> to push message to kafka topic
 listener -> to read the message from topic
 
 start zookeeper:
-bin/zookeeper-server-start.sh config/zookeeper.properties
+./bin/zookeeper-server-start.sh config/zookeeper.properties
 
 start kafka server :
-bin/kafka-server-start  config/server.properties
+./bin/kafka-server-start.sh config/server.properties
 
 To create the topic: topicName : topicName
 
