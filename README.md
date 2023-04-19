@@ -21,7 +21,9 @@ To create the topic: topicName : topicName
 
 kafka_2.13-3.2.0 kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic topicName
  
- 
+To list the kafka topics:
+
+./bin/kafka-topics.sh --bootstrap-server=localhost:9092 --list
 
 To listen :
 
